@@ -23,7 +23,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -31,7 +31,7 @@ a:hover {
   position: fixed;
   text-align: center;
 }
-.nav {
+.navmenu {
   display: flex;
   justify-content: space-around;
   font-weight: 700;
@@ -40,18 +40,18 @@ a:hover {
   padding: 0;
 }
 
-.nav .name {
+.navmenu .name {
     display: block;
     margin-right: auto;
     color: white;
 }
-.nav li {
+.navmenu li {
   padding: 5px 10px 10px 10px;
 }
-.nav a {
+.navmenu a {
   transition: all .5s;
 }
-.nav a:hover {
+.navmenu a:hover {
   color: white
 }
 
@@ -175,7 +175,7 @@ a.social:hover {
 }
 .header3{
   text-align: center;
-  background: url('images/light-sunset-people-water-34014.jpg') no-repeat top center ;
+  background: url('images/father-551921_1280.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
